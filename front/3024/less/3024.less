@@ -1,0 +1,138 @@
+.type-3024 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+  .column {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .col-md-6 {
+    width: 48%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  .about-content {
+    .sec-title-two {
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .border {
+        background: #ececec none repeat scroll 0 0;
+        display: block;
+        width: 50px;
+        height: 1px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 0;
+
+      li {
+        list-style: none;
+        .img-holder {
+          picture {
+            img {
+              width: 100%;
+              height: auto;
+              border-radius: 10px;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .text-holder {
+      margin-top: 20px;
+
+      p {
+        font-size: 1.1em;
+        line-height: 24px;
+      }
+
+      h3 {
+        margin-top: 20px;
+        font-size: 1.5em;
+        font-weight: bold;
+        transition: all 0.7s ease;
+        span {
+          color: #1e90ff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .choose-us-content {
+    .sec-title-two {
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .border {
+        background: #ececec none repeat scroll 0 0;
+        display: block;
+        width: 50px;
+        height: 1px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+    }
+
+    ul {
+      padding: 0;
+
+      li {
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+        .iocn-holder {
+          font-size: 2em;
+          margin-right: 15px;
+          margin-top: 10px;
+          span {
+            color: #43c3ea;
+          }
+        }
+
+        .text-holder {
+          h4 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 0;
+            margin-top: 10px;
+          }
+
+          p {
+            font-size: 1.1em;
+            line-height: 24px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
